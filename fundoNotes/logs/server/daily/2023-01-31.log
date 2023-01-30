@@ -1,50 +1,20 @@
-error: 
-    status - 500 
-    message - Error: User already exist
-    at _callee2$ (E:\dd\fundoNotes\src\services\/user.service.js:20:11)
-    at tryCatch (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
-    url - /api/v1/users/registration 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-01-30T18:17:43.555Z"}
-error: 
-    status - 500 
-    message - Error: Error: Invalid Password
-    at _callee3$ (E:\dd\fundoNotes\src\services\/user.service.js:38:11)
-    at tryCatch (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
-    url - /api/v1/users/login 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-01-30T18:24:01.615Z"}
-error: 
-    status - 500 
-    message - Error: Error: Invalid Email
-    at _callee3$ (E:\dd\fundoNotes\src\services\/user.service.js:38:11)
-    at tryCatch (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\dd\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
-    url - /api/v1/users/login 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-01-30T18:24:10.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T18:31:22.467Z"}
 error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-30T18:31:22.500Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T18:32:37.437Z"}
 error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-30T18:32:37.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T18:34:09.490Z"}
 error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-30T18:34:09.501Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T18:35:12.542Z"}
 error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-30T18:35:12.553Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T18:37:51.602Z"}
 error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-30T18:37:51.618Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T18:39:33.674Z"}
 error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-30T18:39:33.685Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T18:41:09.982Z"}
 error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-30T18:41:09.993Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T18:41:48.961Z"}
 error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-30T18:41:48.976Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T18:43:26.648Z"}
 error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-30T18:43:26.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T18:45:59.477Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T18:46:02.727Z"}

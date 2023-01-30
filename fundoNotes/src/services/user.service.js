@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 const bcrypt = require('bcrypt')
+import jwt from 'jsonwebtoken';
 
 //get all users
 export const getAllUsers = async () => {
@@ -21,7 +22,6 @@ export const userRegistration = async (body) => {
   }
 };
 
-//Login
 export const login = async (body) => {
   try{
     const userdata = await User.findOne({ email: body.email });
@@ -32,6 +32,11 @@ export const login = async (body) => {
     if(!validPassword){
       throw new Error("Invalid Password")
     }
+    else
+    {
+      let token = jwt.sign({ email: userdata.email }, process.env.SECRET_KEY);
+      return token;
+    }
     return userdata;
   }
   catch (error) {
@@ -39,3 +44,4 @@ export const login = async (body) => {
   }
 
 };
+
