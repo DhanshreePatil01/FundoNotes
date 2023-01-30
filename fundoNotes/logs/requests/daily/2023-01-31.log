@@ -1,2 +1,18 @@
 info: ::1 - - [30/Jan/2023:18:46:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 199 "-" "PostmanRuntime/7.30.0"
 
+info: ::1 - - [30/Jan/2023:19:46:58 +0000] "POST /api/v1/notes/create HTTP/1.1" 200 170 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:19:47:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 177 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:19:47:26 +0000] "GET /api/v1/notes/63d81eb25c18ee44f4e0b891 HTTP/1.1" 202 170 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:19:47:48 +0000] "PUT /api/v1/notes/63d81eb25c18ee44f4e0b891 HTTP/1.1" 202 177 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:19:48:20 +0000] "POST /api/v1/notes/create HTTP/1.1" 200 179 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:19:48:30 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 306 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:19:48:49 +0000] "DELETE /api/v1/notes/63d81f045c18ee44f4e0b896 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:19:49:01 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 184 "-" "PostmanRuntime/7.30.0"
+
