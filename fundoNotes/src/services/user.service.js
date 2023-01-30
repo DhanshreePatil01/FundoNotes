@@ -20,3 +20,22 @@ export const userRegistration = async (body) => {
     throw new Error("User already exist")
   }
 };
+
+//Login
+export const login = async (body) => {
+  try{
+    const userdata = await User.findOne({ email: body.email });
+    if (!userdata) {
+      throw new Error("Invalid Email")
+    }
+    const validPassword = await bcrypt.compare(body.password,userdata.password);
+    if(!validPassword){
+      throw new Error("Invalid Password")
+    }
+    return userdata;
+  }
+  catch (error) {
+    throw new Error(error)
+  }
+
+};

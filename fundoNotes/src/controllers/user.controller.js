@@ -34,6 +34,7 @@ export const userRegistration = async (req, res, next) => {
   }
 };
 
+//Controller to login
 export const login =async(req,res,next) => {
   try
   {
@@ -47,3 +48,4 @@ export const login =async(req,res,next) => {
     next(error);
   }
 };
+
